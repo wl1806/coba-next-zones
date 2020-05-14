@@ -8,7 +8,7 @@ export default () => (
       <a href="/blog">Blog</a>
     </div>
     <div>
-      <a href="/home">Home</a>
+      <a href="/">Home</a>
     </div>
     <div>
       <Link href="/about">
