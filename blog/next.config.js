@@ -1,5 +1,4 @@
-const assetPrefix = process.env.BUILDING_FOR_NOW ? '/blog' : ''
-
+const assetPrefix = process.env.BUILDING_FOR_NOW || process.env.NODE_ENV !=='production' ? '/blog' : ''
 module.exports = {
   assetPrefix,
   env: {
